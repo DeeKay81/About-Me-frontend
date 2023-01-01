@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DeeKay81/About-Me/static/css/main.073c9b0a.css",
+    "main.js": "/DeeKay81/About-Me/static/js/main.39a20460.js",
+    "index.html": "/DeeKay81/About-Me/index.html",
+    "main.073c9b0a.css.map": "/DeeKay81/About-Me/static/css/main.073c9b0a.css.map",
+    "main.39a20460.js.map": "/DeeKay81/About-Me/static/js/main.39a20460.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.39a20460.js"
+  ]
+}
