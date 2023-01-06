@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DeeKay81/About-Me/static/css/main.d0ebe10e.css",
+    "main.css": "/DeeKay81/About-Me/static/css/main.bc20a499.css",
     "main.js": "/DeeKay81/About-Me/static/js/main.3e4308a2.js",
     "static/media/devRock.jpg": "/DeeKay81/About-Me/static/media/devRock.612b30e53d5de45f6304.jpg",
     "static/media/project1-img.jpg": "/DeeKay81/About-Me/static/media/project1-img.23047a65e1e73889ebcf.jpg",
@@ -12,11 +12,11 @@
     "static/media/pig.jpeg": "/DeeKay81/About-Me/static/media/pig.c109a8e0cbfaf650fdb8.jpeg",
     "index.html": "/DeeKay81/About-Me/index.html",
     "static/media/CV.pdf": "/DeeKay81/About-Me/static/media/CV.e51fe0b2c26f030577b2.pdf",
-    "main.d0ebe10e.css.map": "/DeeKay81/About-Me/static/css/main.d0ebe10e.css.map",
+    "main.bc20a499.css.map": "/DeeKay81/About-Me/static/css/main.bc20a499.css.map",
     "main.3e4308a2.js.map": "/DeeKay81/About-Me/static/js/main.3e4308a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0ebe10e.css",
+    "static/css/main.bc20a499.css",
     "static/js/main.3e4308a2.js"
   ]
 }
