@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/DeeKay81/About-Me/static/css/main.073c9b0a.css",
-    "main.js": "/DeeKay81/About-Me/static/js/main.39a20460.js",
+    "main.css": "/DeeKay81/About-Me/static/css/main.d0ebe10e.css",
+    "main.js": "/DeeKay81/About-Me/static/js/main.3e4308a2.js",
+    "static/media/devRock.jpg": "/DeeKay81/About-Me/static/media/devRock.612b30e53d5de45f6304.jpg",
+    "static/media/project1-img.jpg": "/DeeKay81/About-Me/static/media/project1-img.23047a65e1e73889ebcf.jpg",
+    "static/media/profilePic.jpg": "/DeeKay81/About-Me/static/media/profilePic.7c687724bfbee1b29a1e.jpg",
+    "static/media/cat.jpg": "/DeeKay81/About-Me/static/media/cat.a96b2dc193c84c5d2140.jpg",
+    "static/media/bee.png": "/DeeKay81/About-Me/static/media/bee.050ab082990d399a827b.png",
+    "static/media/violett.jpg": "/DeeKay81/About-Me/static/media/violett.601dd202a9d2825f31d2.jpg",
+    "static/media/dog.png": "/DeeKay81/About-Me/static/media/dog.fe1f6850b33758202a72.png",
+    "static/media/pig.jpeg": "/DeeKay81/About-Me/static/media/pig.c109a8e0cbfaf650fdb8.jpeg",
     "index.html": "/DeeKay81/About-Me/index.html",
-    "main.073c9b0a.css.map": "/DeeKay81/About-Me/static/css/main.073c9b0a.css.map",
-    "main.39a20460.js.map": "/DeeKay81/About-Me/static/js/main.39a20460.js.map"
+    "static/media/CV.pdf": "/DeeKay81/About-Me/static/media/CV.e51fe0b2c26f030577b2.pdf",
+    "main.d0ebe10e.css.map": "/DeeKay81/About-Me/static/css/main.d0ebe10e.css.map",
+    "main.3e4308a2.js.map": "/DeeKay81/About-Me/static/js/main.3e4308a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.39a20460.js"
+    "static/css/main.d0ebe10e.css",
+    "static/js/main.3e4308a2.js"
   ]
 }
