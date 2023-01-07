@@ -14,12 +14,12 @@
 
 /* some variables */
 :root {
-    --color-backgrnd: #1f1f38 ;
-    --color-backgrnd-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-backgrnd: #60566d ;
+    --color-backgrnd-variant: #7084a3;
+    --color-primary: #ab798d;
+    --color-primary-variant: rgba(171, 121, 141, 0.4);
     --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-white-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
 
@@ -42,20 +42,13 @@ body {
     background: var(--color-backgrnd);
     color: var(--color-white);
     line-hight: 1.7;
-    background-image: url(../src/assets/violett.jpg);
+    /* background-image: url(../src/assets/violett.jpg); */
 }
 
 .container {
     width: var(--container-width-large);
-    padding: 2rem;
+    padding: 4rem;
     margin: 0 auto;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
-    /* display: grid;
-    place-items: center; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,12 +60,12 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 2rem;
 }
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-white-light);
 }
 
 section > h2 {
@@ -81,7 +74,7 @@ section > h2 {
 }
 
 .text-light {
-    color: var(--color-light);
+    color: var(--color-white-light);
 }
 
 a {
