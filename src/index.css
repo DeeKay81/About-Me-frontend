@@ -15,11 +15,13 @@
 /* some variables */
 :root {
     --color-backgrnd: #60566d ;
-    --color-backgrnd-variant: #7084a3;
+    --color-backgrnd-variant: #c0d3f2;
     --color-primary: #ab798d;
     --color-primary-variant: rgba(171, 121, 141, 0.4);
     --color-white: #fff;
     --color-white-light: rgba(255, 255, 255, 0.6);
+    --color-black: #000;
+    --color-black-light: rgba(0, 0, 0, 0.6);
 
     --transition: all 400ms ease;
 
@@ -41,7 +43,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-backgrnd);
     color: var(--color-white);
-    line-hight: 1.7;
+    /* line-hight: 1.7; */
     /* background-image: url(../src/assets/violett.jpg); */
 }
 
@@ -55,8 +57,12 @@ h1, h2, h3, h4, h5 {
     font-weight: 500;
 }
 
-h1 {
-    font-size: 2.5rem;
+h2 {
+    font-size: 5rem;
+}
+
+h5 {
+    font-size: 2rem;
 }
 
 section {
@@ -118,6 +124,15 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-medium);
+        padding: 2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h5 {
+        font-size: 1.2rem;
     }
 }
 
@@ -125,5 +140,14 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-small);
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h5 {
+        font-size: 0.8rem;
     }
 }

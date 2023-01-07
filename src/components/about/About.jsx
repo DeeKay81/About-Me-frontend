@@ -1,7 +1,8 @@
 import React from 'react';
 
 import { FaAward } from 'react-icons/fa';
-import { SiSkillshare } from 'react-icons/si';
+import { FaReact } from 'react-icons/fa';
+import { SiSpringboot } from 'react-icons/si';
 import { AiFillFolderOpen } from 'react-icons/ai';
 
 import AboutMePic from '../../assets/devRock.jpg';
@@ -32,9 +33,15 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <SiSkillshare className='about__icon' />
-              <h5>Frontend : Backend</h5>
-              <small>60:40</small>
+              <FaReact className='about__icon' />
+              <h5>Frontend</h5>
+              <small>60%</small>
+            </article>
+
+            <article className='about__card'>
+              <SiSpringboot className='about__icon' />
+              <h5>Backend</h5>
+              <small>40%</small>
             </article>
 
             <article className='about__card'>
@@ -46,13 +53,10 @@ const About = () => {
           </div>
 
           <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Perferendis explicabo in praesentium nam aut delectus hic. 
-              Distinctio debitis provident, iusto saepe voluptatibus ut, 
-              autem tempore magnam voluptates illo aut unde?
-            </p>
+          Junior full stack developer with 1+ years experience. Aspire to achieve high proficiency in Python, SQL (PostgreSQL, MySQL), HTML, CSS, JavaScript, Java, Three.js, React.js and Spring Boot in a full-time career as a full-stack developer.
+          </p>
 
-            <a href='#contact' className='btn btn-primary'>Message me</a>
+          <a href='#contact' className='btn btn-primary'>Message me</a>
             
         </div>
 
