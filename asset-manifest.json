@@ -1,22 +1,24 @@
 {
-  "files": {
-    "main.css": "/DeeKay81/About-Me/static/css/main.bc20a499.css",
-    "main.js": "/DeeKay81/About-Me/static/js/main.3e4308a2.js",
-    "static/media/devRock.jpg": "/DeeKay81/About-Me/static/media/devRock.612b30e53d5de45f6304.jpg",
-    "static/media/project1-img.jpg": "/DeeKay81/About-Me/static/media/project1-img.23047a65e1e73889ebcf.jpg",
-    "static/media/profilePic.jpg": "/DeeKay81/About-Me/static/media/profilePic.7c687724bfbee1b29a1e.jpg",
-    "static/media/cat.jpg": "/DeeKay81/About-Me/static/media/cat.a96b2dc193c84c5d2140.jpg",
-    "static/media/bee.png": "/DeeKay81/About-Me/static/media/bee.050ab082990d399a827b.png",
-    "static/media/violett.jpg": "/DeeKay81/About-Me/static/media/violett.601dd202a9d2825f31d2.jpg",
-    "static/media/dog.png": "/DeeKay81/About-Me/static/media/dog.fe1f6850b33758202a72.png",
-    "static/media/pig.jpeg": "/DeeKay81/About-Me/static/media/pig.c109a8e0cbfaf650fdb8.jpeg",
-    "index.html": "/DeeKay81/About-Me/index.html",
-    "static/media/CV.pdf": "/DeeKay81/About-Me/static/media/CV.e51fe0b2c26f030577b2.pdf",
-    "main.bc20a499.css.map": "/DeeKay81/About-Me/static/css/main.bc20a499.css.map",
-    "main.3e4308a2.js.map": "/DeeKay81/About-Me/static/js/main.3e4308a2.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.bc20a499.css",
-    "static/js/main.3e4308a2.js"
-  ]
+  "main.css": "/DeeKay81/About-Me/static/css/main.3bbf1b08.chunk.css",
+  "main.js": "/DeeKay81/About-Me/static/js/main.5d23829c.chunk.js",
+  "main.js.map": "/DeeKay81/About-Me/static/js/main.5d23829c.chunk.js.map",
+  "static/css/1.053ce20b.chunk.css": "/DeeKay81/About-Me/static/css/1.053ce20b.chunk.css",
+  "static/js/1.4a4c21dd.chunk.js": "/DeeKay81/About-Me/static/js/1.4a4c21dd.chunk.js",
+  "static/js/1.4a4c21dd.chunk.js.map": "/DeeKay81/About-Me/static/js/1.4a4c21dd.chunk.js.map",
+  "runtime~main.js": "/DeeKay81/About-Me/static/js/runtime~main.7e12c081.js",
+  "runtime~main.js.map": "/DeeKay81/About-Me/static/js/runtime~main.7e12c081.js.map",
+  "static/media/project1-img.jpg": "/DeeKay81/About-Me/static/media/project1-img.e6a0ec32.jpg",
+  "static/media/devRock.jpg": "/DeeKay81/About-Me/static/media/devRock.8be692f3.jpg",
+  "static/media/CV.pdf": "/DeeKay81/About-Me/static/media/CV.f132fb2f.pdf",
+  "static/media/profilePic.jpg": "/DeeKay81/About-Me/static/media/profilePic.f3559983.jpg",
+  "static/media/bee.png": "/DeeKay81/About-Me/static/media/bee.72612368.png",
+  "static/media/cat.jpg": "/DeeKay81/About-Me/static/media/cat.9bbed92c.jpg",
+  "static/media/dog.png": "/DeeKay81/About-Me/static/media/dog.aec87a26.png",
+  "static/media/pig.jpeg": "/DeeKay81/About-Me/static/media/pig.3071e409.jpeg",
+  "static/media/index.css": "/DeeKay81/About-Me/static/media/violett.a4a40b48.jpg",
+  "static/css/main.3bbf1b08.chunk.css.map": "/DeeKay81/About-Me/static/css/main.3bbf1b08.chunk.css.map",
+  "static/css/1.053ce20b.chunk.css.map": "/DeeKay81/About-Me/static/css/1.053ce20b.chunk.css.map",
+  "index.html": "/DeeKay81/About-Me/index.html",
+  "precache-manifest.cc49fdb2411f86db06bc4c8e5847118f.js": "/DeeKay81/About-Me/precache-manifest.cc49fdb2411f86db06bc4c8e5847118f.js",
+  "service-worker.js": "/DeeKay81/About-Me/service-worker.js"
 }
