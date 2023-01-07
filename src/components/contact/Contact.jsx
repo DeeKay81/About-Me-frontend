@@ -56,11 +56,11 @@ const Contact = () => {
 
         {/* on the right */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type='text' name='subject' placeholder='Subject:' required />
-          <input type='text' name='name' placeholder='Your fullname:' required />
-          <input type='email' name='email' placeholder='Your email:' required />
-          <textarea name='message' rows='7' placeholder='Your message:' required />
-          <button type='submit' className='btn btn-primary'>send message</button>
+          <input type='text' name='subject' placeholder='Why do you contact me?' required />
+          <input type='text' name='name' placeholder='How should I call you?' required />
+          <input type='email' name='email' placeholder='What is your email address?' required />
+          <textarea name='message' rows='7' placeholder='Tell me ...' required />
+          <button type='submit' className='btn btn-primary'>Send through matrix ...</button>
         </form>
       </div>
     </section>
