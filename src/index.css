@@ -83,6 +83,10 @@ section > h2 {
     color: var(--color-white-light);
 }
 
+.text-black-light {
+    color: var(--color-black-light);
+}
+
 a {
     color: var(--color-primary);
     transition: var(--transition); 

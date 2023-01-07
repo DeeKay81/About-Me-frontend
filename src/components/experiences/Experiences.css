@@ -40,6 +40,10 @@
     color: var(--color-primary);
 }
 
+.experience__details h4 {
+    color: var(--color-black);
+}
+
 /* MEDIA QUERY FOR TABLETS (MEDIUM) */
 @media screen and (max-width: 1024px) {
     .experience__container {
@@ -66,5 +70,10 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    .experience__content {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
     }
 }

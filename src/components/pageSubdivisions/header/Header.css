@@ -91,7 +91,7 @@ svg {
 /* MEDIA QUERY FOR SMARTPHONES (SMALL) */
 @media screen and (max-width: 600px) {
     header {
-        height: 90vh;
+        height: 81vh;
     }
 
     .header__socials, .scroll__down {
