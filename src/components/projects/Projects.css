@@ -25,6 +25,7 @@
 .projects__item h3 {
     margin: 1.2rem 0 2rem;
     color: var(--color-black);
+    font-size: 1rem;
 }
 
 .projects__item-cta {
@@ -46,5 +47,10 @@
     .projects__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .projects__item h3 {
+        color: var(--color-black);
+        font-size: 1rem;
     }
 }

@@ -59,6 +59,10 @@
     .experience__content {
         padding: 1rem;
     }
+
+    h4 {
+        font-size: 1rem;
+    }
 }
 
 /* MEDIA QUERY FOR SMARTPHONES (SMALL) */
@@ -75,5 +79,9 @@
     .experience__content {
         grid-template-columns: 1fr;
         row-gap: 1rem;
+    }
+
+    h4 {
+        font-size: 1rem;
     }
 }
