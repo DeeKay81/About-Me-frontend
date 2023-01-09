@@ -4,113 +4,129 @@ import './Experiences.css';
 
 import { AiFillCheckCircle } from 'react-icons/ai';
 
-const Experiences = () => {
+
+const frontendData = [
+  {
+    id: 1,
+    skill: 'HTLM',
+    experiencelvl: 'advanced beginner'
+  },
+
+  {
+    id: 2,
+    skill: 'CSS',
+    experiencelvl: 'advanced beginner'
+  },
+
+  {
+    id: 3,
+    skill: 'JavaScript',
+    experiencelvl: 'advanced beginner'
+  },
+
+  {
+    id: 4,
+    skill: 'Three.js',
+    experiencelvl: 'beginner'
+  },
+
+  {
+    id: 5,
+    skill: 'React.js',
+    experiencelvl: 'advanced beginner'
+  },
+
+  {
+    id: 6,
+    skill: 'some Frameworks',
+    experiencelvl: 'advanced beginner'
+  }
+]
+
+const backendData = [
+  {
+    id: 1,
+    skill: 'Python',
+    experiencelvl: 'advanced beginner'
+  },
+
+  {
+    id: 2,
+    skill: 'SQL (PostgreSQL, MySQL)',
+    experiencelvl: 'advanced beginner'
+  },
+
+  {
+    id: 3,
+    skill: 'Java',
+    experiencelvl: 'advanced beginner'
+  },
+
+  {
+    id: 4,
+    skill: 'Spring Boot & Security',
+    experiencelvl: 'beginner'
+  },
+
+  {
+    id: 5,
+    skill: 'REST API',
+    experiencelvl: 'advanced beginner'
+  }
+]
+
+export const Experiences = () => {
+
   return (
     <section id='experience'>
       <h5>These are my</h5>
       <h2>experiences</h2>
-
+      
       <div className="container experience__container">
         
-        <div className="experience__frontend">
+        <div className='experience__frontend'>
           <h3>Frontend Development</h3>
           <div className="experience__content">
-            
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>HTML</h4>
-                <small className='text-black-light'>advanced beginner</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>CSS</h4>
-                <small className='text-black-light'>intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>JavaScript</h4>
-                <small className='text-black-light'>advanced beginner</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Three.js</h4>
-                <small className='text-black-light'>beginner</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>React.js</h4>
-                <small className='text-black-light'>intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>some Frameworks</h4>
-                <small className='text-black-light'>advanced beginner</small>
-              </div>
-            </article>
-
+            {
+              frontendData.map((
+                {
+                  id, skill, experiencelvl
+                }
+              ) => {
+                return (
+                  <article key={id} className='experience__details '>
+                  <AiFillCheckCircle className='experience__details-icon' />
+                  <div>
+                    <h4>{skill}</h4>
+                    <small className='text-black-light'>{experiencelvl}</small>
+                  </div>
+                  </article>
+                )
+              })
+            }
           </div>
         </div>
 
-        <div className="experience__backend">
+        <div className='experience__backend'>
           <h3>Backend Development</h3>
           <div className="experience__content">
-            
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Python</h4>
-                <small className='text-black-light'>intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>SQL (PostgreSQL, MySQL)</h4>
-                <small className='text-black-light'>advanced beginner</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Java</h4>
-                <small className='text-black-light'>intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Spring Boot & Security</h4>
-                <small className='text-black-light'>beginner</small>
-              </div>
-            </article>
-
-            <article className='experience__details '>
-              <AiFillCheckCircle className='experience__details-icon' />
-              <div>
-                <h4>Rest Api</h4>
-                <small className='text-black-light'>advanced beginner</small>
-              </div>
-            </article>
-
+            {
+              backendData.map((
+                {
+                  id, skill, experiencelvl
+                }
+              ) => {
+                return (
+                  <article key={id} className='experience__details '>
+                  <AiFillCheckCircle className='experience__details-icon' />
+                  <div>
+                    <h4>{skill}</h4>
+                    <small className='text-black-light'>{experiencelvl}</small>
+                  </div>
+                  </article>
+                )
+              })
+            }
           </div>
         </div>
 
@@ -118,5 +134,3 @@ const Experiences = () => {
     </section>
   )
 }
-
-export default Experiences

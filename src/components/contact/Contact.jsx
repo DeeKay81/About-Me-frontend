@@ -8,7 +8,7 @@ import './Contact.css';
 // import { BsWhatsapp } from 'react-icons/bs';
 // import { RiMessengerLine } from 'react-icons/ri';
 
-const Contact = () => {
+export const Contact = () => {
 
   const form = useRef();
 
@@ -66,5 +66,3 @@ const Contact = () => {
     </section>
   )
 }
-
-export default Contact

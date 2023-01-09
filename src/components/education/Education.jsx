@@ -4,93 +4,68 @@ import './Education.css';
 
 import { BiCheck } from 'react-icons/bi';
 
-const Education = () => {
+
+const data = [
+  {
+    title: 'School',
+    listing: 'Lorem ipsum dolor sit amet consectetur.'
+  },
+
+  {
+    title: '1st & last job',
+    listing: 'Lorem ipsum dolor sit amet consectetur.'
+  },
+
+  {
+    title: 'Study',
+    listing: 'Lorem ipsum dolor sit amet consectetur.'
+  },
+]
+
+export const Education = () => {
+
   return (
     <section id='education'>
       <h5>Short summary of relevant</h5>
       <h2>education</h2>
 
       <div className='container education__container'>
-        
-        <article className='education'>
-          <div className="education__head">
-            <h3>School</h3>
-          </div>
+        {
+          data.map((
+            {
+              title, listing
+            }
+          ) => {
+            return (
+              <article className='education'>
+                <div className="education__head">
+                  <h3>{title}</h3>
+                </div>
 
-          <ul className='education__list'>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-          </ul>
-        </article>
-
-        <article className='education'>
-          <div className="education__head">
-            <h3>1st & last job</h3>
-          </div>
-
-          <ul className='education__list'>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-          </ul>
-        </article>
-
-        <article className='education'>
-          <div className="education__head">
-            <h3>Study</h3>
-          </div>
-
-          <ul className='education__list'>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='education__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-          </ul>
-        </article>
-
+                <ul className='education__list'>
+                  <li>
+                    <BiCheck className='education__list-icon' />
+                    <p>{listing}</p>
+                  </li>
+                  <li>
+                    <BiCheck className='education__list-icon' />
+                    <p>{listing}</p>
+                  </li>
+                  <li>
+                    <BiCheck className='education__list-icon' />
+                    <p>{listing}</p>
+                  </li>
+                  <li>
+                    <BiCheck className='education__list-icon' />
+                    <p>{listing}</p>
+                  </li>
+                </ul>
+              </article>
+            )
+          })
+        }
       </div>
 
     </section>
   )
 }
-
-export default Education

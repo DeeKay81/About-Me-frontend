@@ -55,14 +55,13 @@ const data = [
   }
 ]
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <section id='projects'>
       <h5>Dive into some of my</h5>
       <h2>projects</h2>
 
       <div className="container projects__container">
-        
         {
           data.map((
             {
@@ -70,29 +69,23 @@ const Projects = () => {
             }
           ) => {
             return (
-
               <article key={id} className='projects__item'>
-                
                 <div className="projects__item-image">
-                  <img src={image} alt={title}></img> {/* change to image name */}
+                  <img src={image} alt={title}></img>
                 </div>
     
-                <h3>{title}</h3> {/* change to image name */}
+                <h3>{title}</h3>
               
                 <div className="projects__item-cta">
                   <a href={github} className='btn' target='_blank' rel='noopener noreferrer'>go to ...</a>
                   {/* <a href={demo} className='btn btn-primary' target='_blank'>demo</a> */}
                 </div>
-
             </article>
             )
           })
         }
-
       </div>
 
     </section>
   )
 }
-
-export default Projects

@@ -1,19 +1,18 @@
 import React from 'react';
-
-import './Testimonials.css';
-
 import Bee from '../../assets/bee.png';
 import Cat from '../../assets/cat.jpg';
 import Dog from '../../assets/dog.png';
 import Pig from '../../assets/pig.jpeg';
 
-import { Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
-
+import './Testimonials.css';
 import 'swiper/swiper.min.css';
 import 'swiper/modules/pagination/pagination.min.css';
 
-const data = [
+import { Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
+
+
+export const data = [
   {
     avatar: Bee,
     name: 'Marvin',
@@ -39,7 +38,7 @@ const data = [
   },
 ]
 
-const Testimonials = () => {
+export const Testimonials = () => {
   return (
     <section id='testimonials'>
       <h5>Clients about me in the</h5>
@@ -80,5 +79,3 @@ const Testimonials = () => {
     </section>
   )
 }
-
-export default Testimonials

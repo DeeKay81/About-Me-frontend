@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Nav.css';
+
 import { BiHomeAlt } from 'react-icons/bi';
 import { CgProfile } from 'react-icons/cg';
 import { FaAward } from 'react-icons/fa';
@@ -7,9 +9,8 @@ import { AiFillFolderOpen } from 'react-icons/ai';
 import { AiFillMessage } from 'react-icons/ai';
 import { useState } from 'react';
 
-import './Nav.css';
 
-const Nav = () => {
+export const Nav = () => {
 
   const [activeNav, setActiveNav] = useState('#');
 
@@ -49,5 +50,3 @@ const Nav = () => {
     </nav>
   )
 }
-
-export default Nav
