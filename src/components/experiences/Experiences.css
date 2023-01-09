@@ -19,6 +19,7 @@
 }
 
 .experience__container > div h3 {
+    font-size: 1.6rem;
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
@@ -36,12 +37,18 @@
 }
 
 .experience__details-icon {
-    margin-top: 6px;
+    margin-top: 8px;
     color: var(--color-primary);
 }
 
 .experience__details h4 {
     color: var(--color-black);
+    font-size: 1.2rem;
+}
+
+.experience__details small {
+    color: var(--color-black-light);
+    font-size: 1rem;
 }
 
 /* MEDIA QUERY FOR TABLETS (MEDIUM) */

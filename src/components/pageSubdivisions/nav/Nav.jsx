@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { BiHomeAlt } from 'react-icons/bi';
-import { AiOutlineUser } from 'react-icons/ai';
-import { GiTeacher } from 'react-icons/gi';
-import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+import { CgProfile } from 'react-icons/cg';
+import { FaAward } from 'react-icons/fa';
+import { AiFillFolderOpen } from 'react-icons/ai';
 import { AiFillMessage } from 'react-icons/ai';
 import { useState } from 'react';
 
@@ -25,19 +25,19 @@ const Nav = () => {
       <a href='#about' 
         onClick={() => setActiveNav('#about')} 
         className={activeNav === '#about' ? 'active' : ''}>
-        <AiOutlineUser />
+        <CgProfile />
       </a>
 
       <a href='#experience'
         onClick={() => setActiveNav('#experience')} 
         className={activeNav === '#experience' ? 'active' : ''}>
-        <GiTeacher />
+        <FaAward />
       </a>
 
       <a href='#projects'
         onClick={() => setActiveNav('#projects')} 
         className={activeNav === '#projects' ? 'active' : ''}>
-        <AiOutlineFundProjectionScreen />
+        <AiFillFolderOpen />
       </a>
 
       <a href='#contact'

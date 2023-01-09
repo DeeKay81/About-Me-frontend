@@ -1,18 +1,19 @@
 import React from 'react';
-
-import CTA from './CTA.jsx';
 import thatsMe from '../../../assets/profilePic.jpg';
-import HeaderSocials from './HeaderSocials.jsx';
 
 import './Header.css';
 
-const Header = () => {
+import { CTA } from './CTA.jsx';
+import { HeaderSocials } from './HeaderSocials.jsx';
+
+
+export const Header = () => {
   return (
     <header>
 
       <div className="container header__container">
 
-        <h5>May I introduce myself? I am</h5>
+        <h5 className='text-light'>May I introduce myself? I am</h5>
         <h2>Dany Kratochwil</h2>
         <h5 className="text-light">Junior Fullstack Developer</h5>
         <CTA />
@@ -29,5 +30,3 @@ const Header = () => {
     </header>
   )
 }
-
-export default Header

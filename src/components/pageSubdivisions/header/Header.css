@@ -17,7 +17,7 @@ header {
 /* CTA */
 .cta {
     margin-top: 2.5rem;
-    display: flex; /* so I can make a space between the buttons */
+    display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
@@ -39,6 +39,7 @@ svg {
 }
 
 .header__socials::after {
+    margin-top: 0.8rem;
     content: '';
     width: 1px;
     height: 2rem;
