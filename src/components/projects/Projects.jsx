@@ -4,36 +4,40 @@ import './Projects.css';
 
 /* import 4-6 project pics here from assets */
 import image1 from '../../assets/project1-img.jpg'; /* just an example */
+import aboutMeAppPic from '../../assets/about-me-app.png';
+import ticTacToeAppPic from '../../assets/tic-tac-toe-app.png';
+import centipedeAppPic from '../../assets/centipede-app.png';
+
 
 const data = [
   {
     id: 1,
-    image: image1, // change image
-    title: 'Project 1 name', // change name
-    github: 'https://github.com' // change path
+    image: aboutMeAppPic, // change image
+    title: 'About me (React.js)', // change name
+    github: 'https://github.com/DeeKay81/About-Me' // change path
     // demo: 'https://PATH TO A DEMO IF WANTED' // change path
   },
 
   {
     id: 2,
-    image: image1, // change image
-    title: 'Project 2 name', // change name
-    github: 'https://github.com' // change path
+    image: ticTacToeAppPic, // change image
+    title: 'Tic Tac Toe (Python)', // change name
+    github: 'https://github.com/DeeKay81/Tic-Tac-Toe' // change path
     // demo: 'https://PATH TO A DEMO IF WANTED' // change path
   },
 
   {
     id: 3,
-    image: image1, // change image
-    title: 'Project 3 name', // change name
-    github: 'https://github.com' // change path
+    image: centipedeAppPic, // change image
+    title: 'Centipede (JavaScript)', // change name
+    github: 'https://github.com/DeeKay81/Centipede' // change path
     // demo: 'https://PATH TO A DEMO IF WANTED' // change path
   },
 
   {
     id: 4,
     image: image1, // change image
-    title: 'Project 4 name', // change name
+    title: '--- Collecting data (SQL) ---', // change name
     github: 'https://github.com' // change path
     // demo: 'https://PATH TO A DEMO IF WANTED' // change path
   },
@@ -41,7 +45,7 @@ const data = [
   {
     id: 5,
     image: image1, // change image
-    title: 'Project 5 name', // change name
+    title: '--- Authorization (Java, Spring) ---', // change name
     github: 'https://github.com' // change path
     // demo: 'https://PATH TO A DEMO IF WANTED' // change path
   },
@@ -49,7 +53,7 @@ const data = [
   {
     id: 6,
     image: image1, // change image
-    title: 'Project 6 name', // change name
+    title: '--- Cubing (Three.js) ---', // change name
     github: 'https://github.com' // change path
     // demo: 'https://PATH TO A DEMO IF WANTED' // change path
   }

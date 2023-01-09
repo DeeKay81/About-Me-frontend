@@ -7,16 +7,19 @@ import { BiCheck } from 'react-icons/bi';
 
 const data = [
   {
+    id: 1,
     title: 'School',
     listing: 'Lorem ipsum dolor sit amet consectetur.'
   },
 
   {
+    id: 2,
     title: '1st & last job',
     listing: 'Lorem ipsum dolor sit amet consectetur.'
   },
 
   {
+    id: 3,
     title: 'Study',
     listing: 'Lorem ipsum dolor sit amet consectetur.'
   },
@@ -33,11 +36,11 @@ export const Education = () => {
         {
           data.map((
             {
-              title, listing
+              id, title, listing
             }
           ) => {
             return (
-              <article className='education'>
+              <article key={id} className='education'>
                 <div className="education__head">
                   <h3>{title}</h3>
                 </div>
