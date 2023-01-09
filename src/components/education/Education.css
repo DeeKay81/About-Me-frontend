@@ -55,12 +55,16 @@
 /* MEDIA QUERY FOR TABLETS (MEDIUM) */
 @media screen and (max-width: 1024px) {
     .education__container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 
     .education {
         height: auto;
+    }
+
+    .education__head h3 {
+        font-size: 1.4rem;
     }
 }
 

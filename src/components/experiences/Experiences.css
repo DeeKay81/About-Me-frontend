@@ -63,12 +63,24 @@
         margin: 0 auto;
     }
 
+    .experience__container > div h3 {
+        font-size: 1.4rem;
+    }
+
     .experience__content {
         padding: 1rem;
     }
 
-    h4 {
+    .experience__details-icon {
+        margin-top: 13px;
+    }
+
+    .experience__details h4 {
         font-size: 1rem;
+    }
+
+    .experience__details small {
+        font-size: 0.8rem;
     }
 }
 

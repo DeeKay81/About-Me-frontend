@@ -17,7 +17,7 @@ export const HeaderSocials = () => {
         </a>
 
         <a href='https://codecool.com/at/' target='_blank' rel='noopener noreferrer'>
-          <img src={CC} alt='cc-pic' />
+          <img src={CC} alt='cc-pic' className='cc__pic' />
         </a>
 
     </div>

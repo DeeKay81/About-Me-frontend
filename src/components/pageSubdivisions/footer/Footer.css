@@ -51,6 +51,26 @@ footer a {
     color: var(--color-backgrnd);
 }
 
+/* MEDIA QUERY FOR TABLETS (MEDIUM) */
+@media screen and (max-width: 1024px) {
+    footer {
+        padding: 2rem;
+    }
+
+    .footer__logo {
+        margin-bottom: 1rem;
+    }
+
+    .permalinks {
+        margin-bottom: 2rem;
+    }
+
+    .footer__socials {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
 /* MEDIA QUERY FOR SMARTPHONES (SMALL) */
 @media screen and (max-width: 600px) {
     .permalinks {

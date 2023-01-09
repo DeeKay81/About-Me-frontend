@@ -81,7 +81,7 @@
     }
 
     .about__me {
-        width: 70%;
+        width: 60%;
         margin: 2rem auto 4rem;
     }
 
@@ -95,18 +95,18 @@
     }
 
     .about__card h5 {
-        font-size: 0.90rem;
+        font-size: 1rem;
     }
 
     .about__card small {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
 
 /* MEDIA QUERY FOR SMARTPHONES (SMALL) */
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 85%;
+        width: 80%;
         margin: 0 auto 3rem;
     }
 

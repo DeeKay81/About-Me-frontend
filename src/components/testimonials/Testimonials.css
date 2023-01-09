@@ -40,15 +40,15 @@
 /* MEDIA QUERY FOR TABLETS (MEDIUM) */
 @media screen and (max-width: 1024px) {
     .container.testimonials__container {
-        width: 80%;
+        width: 70%;
     }
 
     .client__review {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 
     .client__name {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 }
 

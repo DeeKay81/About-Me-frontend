@@ -40,6 +40,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+    .projects__item h3 {
+        font-size: 1rem;
+    }
 }
 
 /* MEDIA QUERY FOR SMARTPHONES (SMALL) */
