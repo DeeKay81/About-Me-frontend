@@ -74,4 +74,20 @@
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+
+    .education {
+        height: auto;
+    }
+
+    .education__head h3 {
+        font-size: 1.2rem;
+    }
+
+    .education__list p {
+        font-size: 0.9rem;
+    }
+
+    .education__list-icon {
+        margin-top: 8px;
+    }
 }

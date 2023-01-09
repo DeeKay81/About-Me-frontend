@@ -110,17 +110,21 @@
         margin: 0 auto 3rem;
     }
 
+    .about__icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
     .about__cards {
-        grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
     .about__card h5 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .about__card small {
-        font-size: 0.6rem;
+        font-size: 0.75rem;
     }
 
     .about__content {
@@ -130,5 +134,10 @@
     .about__content p {
         margin: 1.5rem 0;
         font-size: 0.85rem;
+    }
+
+    .btn-primary {
+        font-size: 0.85rem !important;
+        line-height: 1.2rem !important;
     }
 }
