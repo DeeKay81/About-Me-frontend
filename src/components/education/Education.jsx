@@ -9,19 +9,22 @@ const data = [
   {
     id: 1,
     title: 'School',
-    listing: 'Lorem ipsum dolor sit amet consectetur.'
+    listing1: 'Elementary and High School',
+    listing2: 'Professional School for IT'
   },
 
   {
     id: 2,
     title: '1st & last job',
-    listing: 'Lorem ipsum dolor sit amet consectetur.'
+    listing1: 'IT Technician',
+    listing2: 'Sales Manager'
   },
 
   {
     id: 3,
     title: 'Study',
-    listing: 'Lorem ipsum dolor sit amet consectetur.'
+    listing1: 'Information Technology',
+    listing2: 'Full Stack Developer Studies'
   },
 ]
 
@@ -36,7 +39,7 @@ export const Education = () => {
         {
           data.map((
             {
-              id, title, listing
+              id, title, listing1, listing2, listing3, listing4, listing5, listing6, listing7
             }
           ) => {
             return (
@@ -48,19 +51,11 @@ export const Education = () => {
                 <ul className='education__list'>
                   <li>
                     <BiCheck className='education__list-icon' />
-                    <p>{listing}</p>
+                    <p>{listing1}</p>
                   </li>
                   <li>
                     <BiCheck className='education__list-icon' />
-                    <p>{listing}</p>
-                  </li>
-                  <li>
-                    <BiCheck className='education__list-icon' />
-                    <p>{listing}</p>
-                  </li>
-                  <li>
-                    <BiCheck className='education__list-icon' />
-                    <p>{listing}</p>
+                    <p>{listing2}</p>
                   </li>
                 </ul>
               </article>

@@ -51,8 +51,7 @@ export const About = () => {
           </div>
 
           <p>
-            Junior full stack developer with 1+ years experience. Aspire to achieve high proficiency in Python, 
-            SQL (PostgreSQL, MySQL), HTML, CSS, JavaScript, Java, Three.js, React.js and Spring Boot in a 
+            I'm a Junior Full Stack Developer with 1+ years experience. Aspire to achieve high proficiency in all spectra of software development in a 
             full-time career as a full-stack developer.
           </p>
 
