@@ -12,10 +12,10 @@
     transition: var(--transition);
 }
 
-.projects__item:hover {
+/* .projects__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
-}
+} */
 
 .projects__item-image {
     border-radius: 1.5rem;
