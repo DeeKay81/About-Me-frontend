@@ -55,10 +55,6 @@ input, textarea {
     font-size: 1.1rem;
 }
 
-.btn-primary {
-    font-size: 1.1rem;
-}
-
 /* MEDIA QUERY FOR TABLETS (MEDIUM) */
 @media screen and (max-width: 1024px) {
     .container.contact__container {
@@ -67,11 +63,6 @@ input, textarea {
 
     input, textarea {
         font-size: 0.9rem;
-    }
-
-    .btn-primary {
-        font-size: 0.85rem !important;
-        line-height: 1.2rem !important;
     }
 }
 
@@ -83,10 +74,5 @@ input, textarea {
 
     input, textarea {
         font-size: 0.8rem;
-    }
-
-    .btn-primary {
-        font-size: 0.85rem !important;
-        line-height: 1.2rem !important;
     }
 }

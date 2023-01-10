@@ -108,14 +108,4 @@ svg {
     .header__socials, .scroll__down {
         display: none;
     }
-
-    .btn {
-        font-size: 0.85rem;
-        line-height: 1.2rem;
-    }
-
-    .btn-primary {
-        font-size: 0.85rem !important;
-        line-height: 1.2rem !important;
-    }
 }
