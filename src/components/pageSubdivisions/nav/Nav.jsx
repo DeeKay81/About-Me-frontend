@@ -30,21 +30,21 @@ export const Nav = () => {
         <CgProfile />
       </a>
 
-      <a href='#experience'
-        onClick={() => setActiveNav('#experience')} 
-        className={activeNav === '#experience' ? 'active' : ''}>
+      <a href='/experience'
+        onClick={() => setActiveNav('/experience')} 
+        className={activeNav === '/experience' ? 'active' : ''}>
         <FaAward />
       </a>
 
-      <a href='#projects'
-        onClick={() => setActiveNav('#projects')} 
-        className={activeNav === '#projects' ? 'active' : ''}>
+      <a href='/project'
+        onClick={() => setActiveNav('/project')} 
+        className={activeNav === '/project' ? 'active' : ''}>
         <AiFillFolderOpen />
       </a>
 
-      <a href='#education'
-        onClick={() => setActiveNav('#education')} 
-        className={activeNav === '#education' ? 'active' : ''}>
+      <a href='/edu'
+        onClick={() => setActiveNav('/edu')} 
+        className={activeNav === '/edu' ? 'active' : ''}>
         <FaBook />
       </a>
 
