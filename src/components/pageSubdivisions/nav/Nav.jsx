@@ -18,9 +18,9 @@ export const Nav = () => {
   return (
     <nav>
 
-      <a href='/#' 
-        onClick={() => setActiveNav('#')} 
-        className={activeNav === '#' ? 'active' : ''}>
+      <a href='/DeeKay81/About-Me-frontend/#' 
+        onClick={() => setActiveNav('/DeeKay81/About-Me-frontend/#')} 
+        className={activeNav === '/DeeKay81/About-Me-frontend/#' ? 'active' : ''}>
           <BiHomeAlt />
       </a>
 
@@ -30,21 +30,21 @@ export const Nav = () => {
         <CgProfile />
       </a>
 
-      <a href='/experience'
-        onClick={() => setActiveNav('/experience')} 
-        className={activeNav === '/experience' ? 'active' : ''}>
+      <a href='/DeeKay81/About-Me-frontend/experience'
+        onClick={() => setActiveNav('/DeeKay81/About-Me-frontend/experience')} 
+        className={activeNav === '/DeeKay81/About-Me-frontend/experience' ? 'active' : ''}>
         <FaAward />
       </a>
 
-      <a href='/project'
-        onClick={() => setActiveNav('/project')} 
-        className={activeNav === '/project' ? 'active' : ''}>
+      <a href='/DeeKay81/About-Me-frontend/project'
+        onClick={() => setActiveNav('/DeeKay81/About-Me-frontend/project')} 
+        className={activeNav === '/DeeKay81/About-Me-frontend/project' ? 'active' : ''}>
         <AiFillFolderOpen />
       </a>
 
-      <a href='/edu'
-        onClick={() => setActiveNav('/edu')} 
-        className={activeNav === '/edu' ? 'active' : ''}>
+      <a href='/DeeKay81/About-Me-frontend/edu'
+        onClick={() => setActiveNav('/DeeKay81/About-Me-frontend/edu')} 
+        className={activeNav === '/DeeKay81/About-Me-frontend/edu' ? 'active' : ''}>
         <FaBook />
       </a>
 

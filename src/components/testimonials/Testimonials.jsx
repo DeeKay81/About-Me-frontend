@@ -5,11 +5,11 @@ import Dog from '../../assets/dog.png';
 import Pig from '../../assets/pig.jpeg';
 
 import './Testimonials.css';
-import 'swiper/swiper.min.css';
-import 'swiper/modules/pagination/pagination.min.css';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 import { Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 export const data = [
