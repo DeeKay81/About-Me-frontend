@@ -43,8 +43,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-backgrnd);
     color: var(--color-white);
-    /* line-hight: 1.7; */
-    /* background-image: url(../src/assets/violett.jpg); */
 }
 
 .container {
