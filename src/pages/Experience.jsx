@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import { ShortNav } from '../components/pageSubdivisions/nav/ShortNav.jsx';
-import { Experiences } from '../components/experiences/Experiences.jsx';
+
+import ExperiencesList from '../components/experiences/ExperiencesList.jsx';
 
 
 export default class Experience extends Component {
@@ -9,7 +10,7 @@ export default class Experience extends Component {
     return (
       <>
         <ShortNav />
-        <Experiences />
+        <ExperiencesList />
       </>
       );
   }

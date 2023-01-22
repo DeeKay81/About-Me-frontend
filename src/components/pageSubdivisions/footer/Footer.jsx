@@ -13,11 +13,11 @@ export const Footer = () => {
       <a href='/#' className='footer__logo'>DeeKay</a>
 
       <ul className='permalinks'>
-        <li><a href='/#'>HoMe</a></li>
+        <li><a href='/DeeKay81/About-Me-frontend/#'>HoMe</a></li>
         <li><a href='#about'>about me</a></li>
-        <li><a href='/experience'>experiences</a></li>
-        <li><a href='/project'>projects</a></li>
-        <li><a href='/edu'>education</a></li>
+        <li><a href='/DeeKay81/About-Me-frontend/experience'>experiences</a></li>
+        <li><a href='/DeeKay81/About-Me-frontend/project'>projects</a></li>
+        <li><a href='/DeeKay81/About-Me-frontend/edu'>education</a></li>
         <li><a href='#testimonials'>testimonials</a></li>
         <li><a href='#contact'>contact me</a></li>
       </ul>
@@ -29,7 +29,7 @@ export const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; DeeKay. All rights reserved.</small>
+        <small>&copy; DeeKay 2023. All rights reserved.</small>
       </div>
 
     </footer>
