@@ -1,6 +1,7 @@
 {
   "name": "about-me-app",
-  "homepage": "https://github.com/DeeKay81/About-Me",
+  "homepage": "https://github.com/DeeKay81/About-Me-frontend",
+  "proxy": "http://localhost:8080",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
