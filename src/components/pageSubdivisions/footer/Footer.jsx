@@ -15,9 +15,9 @@ export const Footer = () => {
       <ul className='permalinks'>
         <li><a href='/#'>HoMe</a></li>
         <li><a href='#about'>about me</a></li>
-        <li><a href='#experience'>experiences</a></li>
-        <li><a href='#projects'>projects</a></li>
-        <li><a href='#education'>education</a></li>
+        <li><a href='/experience'>experiences</a></li>
+        <li><a href='/project'>projects</a></li>
+        <li><a href='/edu'>education</a></li>
         <li><a href='#testimonials'>testimonials</a></li>
         <li><a href='#contact'>contact me</a></li>
       </ul>
