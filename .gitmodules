@@ -1,0 +1,3 @@
+[submodule "src/projects/Centepede"]
+	path = src/projects/Centepede
+	url = git@github.com:DeeKay81/Centipede.git

@@ -8,30 +8,42 @@ import aboutMeAppPic from '../../assets/about-me-app.png';
 import ticTacToeAppPic from '../../assets/tic-tac-toe-app.png';
 import centipedeAppPic from '../../assets/centipede-app.png';
 
+import CentipedeIndex from './CentipedeIndex';
+// import '../../../src/cindex.html';
+
+// let centipedeIndexFile = require('../../../src/cindex.html');
+
+// export default function CentipedeIndex() {
+
+//     return (
+//         <div dangerouslySetInnerHTML={ {__html: centipedeIndexFile} } />
+
+//     );
+// }
 
 const data = [
   {
     id: 1,
-    image: aboutMeAppPic, // change image
-    title: 'About me (React.js)', // change name
-    github: 'https://github.com/DeeKay81/About-Me' // change path
-    // demo: 'https://PATH TO A DEMO IF WANTED' // change path
+    image: aboutMeAppPic,
+    title: 'About me (React.js)',
+    github: 'https://github.com/DeeKay81/About-Me-frontend',
+    demo: 'http://localhost:3000/DeeKay81/About-Me-frontend/'
   },
 
   {
     id: 2,
-    image: ticTacToeAppPic, // change image
-    title: 'Tic Tac Toe (Python)', // change name
-    github: 'https://github.com/DeeKay81/Tic-Tac-Toe' // change path
-    // demo: 'https://PATH TO A DEMO IF WANTED' // change path
+    image: ticTacToeAppPic,
+    title: 'Tic Tac Toe (Python)',
+    github: 'https://github.com/DeeKay81/Tic-Tac-Toe',
+    demo: 'http://0.0.0.0:8000/src/components/projects/tic-tac-toe.html'
   },
 
   {
     id: 3,
     image: centipedeAppPic, // change image
     title: 'Centipede (JavaScript)', // change name
-    github: 'https://github.com/DeeKay81/Centipede' // change path
-    // demo: 'https://PATH TO A DEMO IF WANTED' // change path
+    github: 'https://github.com/DeeKay81/Centipede', // change path
+    demo: 'http://localhost:3000/DeeKay81/About-Me-frontend/project/centipede' // change path
   },
 
   {
@@ -69,7 +81,7 @@ export const Projects = () => {
         {
           data.map((
             {
-              id, image, title, github //, demo
+              id, image, title, github, demo
             }
           ) => {
             return (
@@ -82,7 +94,7 @@ export const Projects = () => {
               
                 <div className="projects__item-cta">
                   <a href={github} className='btn' target='_blank' rel='noopener noreferrer'>go to ...</a>
-                  {/* <a href={demo} className='btn btn-primary' target='_blank'>demo</a> */}
+                  <a href={demo} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>demo</a>
                 </div>
             </article>
             )
