@@ -8,7 +8,7 @@
 // }
 
 import React, { Component } from 'react';
-import Page from '../../cindex.html';
+import Page from '../../projects/Centepede/index.html';
 var htmlDoc = {__html: Page};
 
 export default class CentipedeIndex extends Component {
