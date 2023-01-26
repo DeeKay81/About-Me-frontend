@@ -7,19 +7,8 @@ import image1 from '../../assets/project1-img.jpg'; /* just an example */
 import aboutMeAppPic from '../../assets/about-me-app.png';
 import ticTacToeAppPic from '../../assets/tic-tac-toe-app.png';
 import centipedeAppPic from '../../assets/centipede-app.png';
+import mysqlWorkbenchPic from '../../assets/mysql-workbench.png';
 
-import CentipedeIndex from './CentipedeIndex';
-// import '../../../src/cindex.html';
-
-// let centipedeIndexFile = require('../../../src/cindex.html');
-
-// export default function CentipedeIndex() {
-
-//     return (
-//         <div dangerouslySetInnerHTML={ {__html: centipedeIndexFile} } />
-
-//     );
-// }
 
 const data = [
   {
@@ -34,24 +23,24 @@ const data = [
     id: 2,
     image: ticTacToeAppPic,
     title: 'Tic Tac Toe (Python)',
-    github: 'https://github.com/DeeKay81/Tic-Tac-Toe',
-    demo: 'http://0.0.0.0:8000/src/components/projects/tic-tac-toe.html'
+    github: 'https://github.com/DeeKay81/Tic-Tac-Toe.git',
+    demo: 'http://localhost:3000/DeeKay81/About-Me-frontend/project/tic-tac-toe-demo'
   },
 
   {
     id: 3,
     image: centipedeAppPic, // change image
     title: 'Centipede (JavaScript)', // change name
-    github: 'https://github.com/DeeKay81/Centipede', // change path
-    demo: 'http://localhost:3000/DeeKay81/About-Me-frontend/project/centipede' // change path
+    github: 'https://github.com/DeeKay81/Centipede.git', // change path
+    demo: 'http://localhost:3000/DeeKay81/About-Me-frontend/project/centipede-demo' // change path
   },
-
+  
   {
     id: 4,
-    image: image1, // change image
-    title: '--- Collecting data (SQL) ---', // change name
-    github: 'https://github.com' // change path
-    // demo: 'https://PATH TO A DEMO IF WANTED' // change path
+    image: mysqlWorkbenchPic, // change image
+    title: 'CRUD RESTful API (Java, Spring Boot, MySQL)', // change name
+    github: 'https://github.com/DeeKay81/About-Me-backend.git', // change path
+    demo: 'http://localhost:3000/DeeKay81/About-Me-frontend/project/mysql-demo' // change path
   },
 
   {

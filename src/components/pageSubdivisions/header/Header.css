@@ -76,7 +76,7 @@ svg {
 /* MEDIA QUERY FOR TABLETS (MEDIUM) */
 @media screen and (max-width: 1024px) {
     header {
-        height: 75vh;
+        height: 81vh;
         margin-bottom: 2rem;
     }
 
