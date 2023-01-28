@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-import FrontendExperienceService from '../../services/FrontendExperienceService';
-import BackendExperienceService from '../../services/BackendExperienceService';
 
 import './Experiences.css';
 
 import { AiFillCheckCircle } from 'react-icons/ai';
+
+import FrontendExperienceService from '../../services/FrontendExperienceService';
+import BackendExperienceService from '../../services/BackendExperienceService';
 
 
 export default class FrontendExperiencesList extends Component {
 
     constructor(props) {
         super(props);
-
-        this.state = {
-            fexperiences: [],
-            bexperiences: []
-        }
+        this.state = { fexperiences: [], bexperiences: [] }
     }
 
     componentDidMount() {
